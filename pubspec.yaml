@@ -10,6 +10,9 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # Core
+  provider: ^6.1.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -17,3 +20,12 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/icon/
+
+  fonts:
+    - family: Kanit
+      fonts:
+        - asset: assets/fonts/Kanit-Regular.ttf
